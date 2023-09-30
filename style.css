@@ -1,0 +1,71 @@
+/* Styling for the Calculator Container */
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Styling for the Display Input */
+.display {
+    width: 100%;
+    height: 40px;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: white;
+}
+
+/* Styling for the Calculator Buttons */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styling for Operator Buttons */
+.operator {
+    background-color: #f26430;
+    color: white;
+}
+
+/* Styling for Number Buttons */
+.number {
+    background-color: #555;
+    color: white;
+}
+
+/* Styling for Equal Button */
+.equal {
+    grid-column: span 2;
+    background-color: #6bd23e;
+    color: white;
+}
+
+/* Styling for Clear and Backspace Buttons */
+.clear,
+.backspace {
+    background-color: #e74c3c;
+    color: white;
+}
+
+/* Hover Effect */
+button:hover {
+    filter: brightness(1.2);
+}
